@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C51CD4CA1DF91E33008FF1F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C51CD4C91DF91E33008FF1F2 /* main.m */; };
+		C51CD4CD1DF91E33008FF1F2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C51CD4CC1DF91E33008FF1F2 /* AppDelegate.m */; };
+		C51CD4D51DF91E33008FF1F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C51CD4D41DF91E33008FF1F2 /* Assets.xcassets */; };
+		C51CD4E31DF91E33008FF1F2 /* HWEverNoteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C51CD4E21DF91E33008FF1F2 /* HWEverNoteTests.m */; };
+		C51CD4EE1DF91E33008FF1F2 /* HWEverNoteUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C51CD4ED1DF91E33008FF1F2 /* HWEverNoteUITests.m */; };
+		C51CD4FC1DF92110008FF1F2 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C51CD4FB1DF92110008FF1F2 /* Launch Screen.storyboard */; };
+		C51CD4FE1DF92178008FF1F2 /* LaunchImage568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C51CD4FD1DF92178008FF1F2 /* LaunchImage568h@2x.png */; };
+		C51CD5011DF93CAD008FF1F2 /* HWHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C51CD5001DF93CAD008FF1F2 /* HWHomeViewController.m */; };
+		C53D549F1DF93FE700E90937 /* HWSetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C53D549E1DF93FE700E90937 /* HWSetViewController.m */; };
+		C53D54A31DF945FB00E90937 /* HWCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C53D54A11DF945FB00E90937 /* HWCollectionViewCell.m */; };
+		C53D54A41DF945FB00E90937 /* HWCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C53D54A21DF945FB00E90937 /* HWCollectionViewCell.xib */; };
+		C556CEE11DFA76EE0064B102 /* HWCollectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = C556CEDF1DFA76EE0064B102 /* HWCollectionHeaderView.m */; };
+		C556CEE21DFA76EE0064B102 /* HWCollectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C556CEE01DFA76EE0064B102 /* HWCollectionHeaderView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C51CD4DF1DF91E33008FF1F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C51CD4BD1DF91E33008FF1F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C51CD4C41DF91E33008FF1F2;
+			remoteInfo = HWEverNote;
+		};
+		C51CD4EA1DF91E33008FF1F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C51CD4BD1DF91E33008FF1F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C51CD4C41DF91E33008FF1F2;
+			remoteInfo = HWEverNote;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C51CD4C51DF91E33008FF1F2 /* HWEverNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HWEverNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C51CD4C91DF91E33008FF1F2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C51CD4CB1DF91E33008FF1F2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C51CD4CC1DF91E33008FF1F2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C51CD4D41DF91E33008FF1F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C51CD4D91DF91E33008FF1F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C51CD4DE1DF91E33008FF1F2 /* HWEverNoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HWEverNoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C51CD4E21DF91E33008FF1F2 /* HWEverNoteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWEverNoteTests.m; sourceTree = "<group>"; };
+		C51CD4E41DF91E33008FF1F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C51CD4E91DF91E33008FF1F2 /* HWEverNoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HWEverNoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C51CD4ED1DF91E33008FF1F2 /* HWEverNoteUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWEverNoteUITests.m; sourceTree = "<group>"; };
+		C51CD4EF1DF91E33008FF1F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C51CD4FB1DF92110008FF1F2 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		C51CD4FD1DF92178008FF1F2 /* LaunchImage568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage568h@2x.png"; sourceTree = "<group>"; };
+		C51CD4FF1DF93CAD008FF1F2 /* HWHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWHomeViewController.h; sourceTree = "<group>"; };
+		C51CD5001DF93CAD008FF1F2 /* HWHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWHomeViewController.m; sourceTree = "<group>"; };
+		C53D549D1DF93FE700E90937 /* HWSetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWSetViewController.h; sourceTree = "<group>"; };
+		C53D549E1DF93FE700E90937 /* HWSetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWSetViewController.m; sourceTree = "<group>"; };
+		C53D54A01DF945FB00E90937 /* HWCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWCollectionViewCell.h; sourceTree = "<group>"; };
+		C53D54A11DF945FB00E90937 /* HWCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWCollectionViewCell.m; sourceTree = "<group>"; };
+		C53D54A21DF945FB00E90937 /* HWCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HWCollectionViewCell.xib; sourceTree = "<group>"; };
+		C556CEDE1DFA76EE0064B102 /* HWCollectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWCollectionHeaderView.h; sourceTree = "<group>"; };
+		C556CEDF1DFA76EE0064B102 /* HWCollectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWCollectionHeaderView.m; sourceTree = "<group>"; };
+		C556CEE01DFA76EE0064B102 /* HWCollectionHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HWCollectionHeaderView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C51CD4C21DF91E33008FF1F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C51CD4DB1DF91E33008FF1F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C51CD4E61DF91E33008FF1F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C51CD4BC1DF91E33008FF1F2 = {
+			isa = PBXGroup;
+			children = (
+				C51CD4C71DF91E33008FF1F2 /* HWEverNote */,
+				C51CD4E11DF91E33008FF1F2 /* HWEverNoteTests */,
+				C51CD4EC1DF91E33008FF1F2 /* HWEverNoteUITests */,
+				C51CD4C61DF91E33008FF1F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C51CD4C61DF91E33008FF1F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C51CD4C51DF91E33008FF1F2 /* HWEverNote.app */,
+				C51CD4DE1DF91E33008FF1F2 /* HWEverNoteTests.xctest */,
+				C51CD4E91DF91E33008FF1F2 /* HWEverNoteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C51CD4C71DF91E33008FF1F2 /* HWEverNote */ = {
+			isa = PBXGroup;
+			children = (
+				C51CD4CB1DF91E33008FF1F2 /* AppDelegate.h */,
+				C51CD4CC1DF91E33008FF1F2 /* AppDelegate.m */,
+				C51CD4FF1DF93CAD008FF1F2 /* HWHomeViewController.h */,
+				C51CD5001DF93CAD008FF1F2 /* HWHomeViewController.m */,
+				C53D549D1DF93FE700E90937 /* HWSetViewController.h */,
+				C53D549E1DF93FE700E90937 /* HWSetViewController.m */,
+				C556CEDE1DFA76EE0064B102 /* HWCollectionHeaderView.h */,
+				C556CEDF1DFA76EE0064B102 /* HWCollectionHeaderView.m */,
+				C556CEE01DFA76EE0064B102 /* HWCollectionHeaderView.xib */,
+				C53D54A01DF945FB00E90937 /* HWCollectionViewCell.h */,
+				C53D54A11DF945FB00E90937 /* HWCollectionViewCell.m */,
+				C53D54A21DF945FB00E90937 /* HWCollectionViewCell.xib */,
+				C51CD4D41DF91E33008FF1F2 /* Assets.xcassets */,
+				C51CD4FB1DF92110008FF1F2 /* Launch Screen.storyboard */,
+				C51CD4D91DF91E33008FF1F2 /* Info.plist */,
+				C51CD4C81DF91E33008FF1F2 /* Supporting Files */,
+			);
+			path = HWEverNote;
+			sourceTree = "<group>";
+		};
+		C51CD4C81DF91E33008FF1F2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C51CD4FD1DF92178008FF1F2 /* LaunchImage568h@2x.png */,
+				C51CD4C91DF91E33008FF1F2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C51CD4E11DF91E33008FF1F2 /* HWEverNoteTests */ = {
+			isa = PBXGroup;
+			children = (
+				C51CD4E21DF91E33008FF1F2 /* HWEverNoteTests.m */,
+				C51CD4E41DF91E33008FF1F2 /* Info.plist */,
+			);
+			path = HWEverNoteTests;
+			sourceTree = "<group>";
+		};
+		C51CD4EC1DF91E33008FF1F2 /* HWEverNoteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C51CD4ED1DF91E33008FF1F2 /* HWEverNoteUITests.m */,
+				C51CD4EF1DF91E33008FF1F2 /* Info.plist */,
+			);
+			path = HWEverNoteUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C51CD4C41DF91E33008FF1F2 /* HWEverNote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C51CD4F21DF91E33008FF1F2 /* Build configuration list for PBXNativeTarget "HWEverNote" */;
+			buildPhases = (
+				C51CD4C11DF91E33008FF1F2 /* Sources */,
+				C51CD4C21DF91E33008FF1F2 /* Frameworks */,
+				C51CD4C31DF91E33008FF1F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HWEverNote;
+			productName = HWEverNote;
+			productReference = C51CD4C51DF91E33008FF1F2 /* HWEverNote.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C51CD4DD1DF91E33008FF1F2 /* HWEverNoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C51CD4F51DF91E33008FF1F2 /* Build configuration list for PBXNativeTarget "HWEverNoteTests" */;
+			buildPhases = (
+				C51CD4DA1DF91E33008FF1F2 /* Sources */,
+				C51CD4DB1DF91E33008FF1F2 /* Frameworks */,
+				C51CD4DC1DF91E33008FF1F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C51CD4E01DF91E33008FF1F2 /* PBXTargetDependency */,
+			);
+			name = HWEverNoteTests;
+			productName = HWEverNoteTests;
+			productReference = C51CD4DE1DF91E33008FF1F2 /* HWEverNoteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C51CD4E81DF91E33008FF1F2 /* HWEverNoteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C51CD4F81DF91E33008FF1F2 /* Build configuration list for PBXNativeTarget "HWEverNoteUITests" */;
+			buildPhases = (
+				C51CD4E51DF91E33008FF1F2 /* Sources */,
+				C51CD4E61DF91E33008FF1F2 /* Frameworks */,
+				C51CD4E71DF91E33008FF1F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C51CD4EB1DF91E33008FF1F2 /* PBXTargetDependency */,
+			);
+			name = HWEverNoteUITests;
+			productName = HWEverNoteUITests;
+			productReference = C51CD4E91DF91E33008FF1F2 /* HWEverNoteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C51CD4BD1DF91E33008FF1F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = hwacdx;
+				TargetAttributes = {
+					C51CD4C41DF91E33008FF1F2 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					C51CD4DD1DF91E33008FF1F2 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C51CD4C41DF91E33008FF1F2;
+					};
+					C51CD4E81DF91E33008FF1F2 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C51CD4C41DF91E33008FF1F2;
+					};
+				};
+			};
+			buildConfigurationList = C51CD4C01DF91E33008FF1F2 /* Build configuration list for PBXProject "HWEverNote" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C51CD4BC1DF91E33008FF1F2;
+			productRefGroup = C51CD4C61DF91E33008FF1F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C51CD4C41DF91E33008FF1F2 /* HWEverNote */,
+				C51CD4DD1DF91E33008FF1F2 /* HWEverNoteTests */,
+				C51CD4E81DF91E33008FF1F2 /* HWEverNoteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C51CD4C31DF91E33008FF1F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C556CEE21DFA76EE0064B102 /* HWCollectionHeaderView.xib in Resources */,
+				C51CD4FC1DF92110008FF1F2 /* Launch Screen.storyboard in Resources */,
+				C51CD4D51DF91E33008FF1F2 /* Assets.xcassets in Resources */,
+				C51CD4FE1DF92178008FF1F2 /* LaunchImage568h@2x.png in Resources */,
+				C53D54A41DF945FB00E90937 /* HWCollectionViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C51CD4DC1DF91E33008FF1F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C51CD4E71DF91E33008FF1F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C51CD4C11DF91E33008FF1F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C53D54A31DF945FB00E90937 /* HWCollectionViewCell.m in Sources */,
+				C51CD5011DF93CAD008FF1F2 /* HWHomeViewController.m in Sources */,
+				C51CD4CD1DF91E33008FF1F2 /* AppDelegate.m in Sources */,
+				C53D549F1DF93FE700E90937 /* HWSetViewController.m in Sources */,
+				C556CEE11DFA76EE0064B102 /* HWCollectionHeaderView.m in Sources */,
+				C51CD4CA1DF91E33008FF1F2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C51CD4DA1DF91E33008FF1F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C51CD4E31DF91E33008FF1F2 /* HWEverNoteTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C51CD4E51DF91E33008FF1F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C51CD4EE1DF91E33008FF1F2 /* HWEverNoteUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C51CD4E01DF91E33008FF1F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C51CD4C41DF91E33008FF1F2 /* HWEverNote */;
+			targetProxy = C51CD4DF1DF91E33008FF1F2 /* PBXContainerItemProxy */;
+		};
+		C51CD4EB1DF91E33008FF1F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C51CD4C41DF91E33008FF1F2 /* HWEverNote */;
+			targetProxy = C51CD4EA1DF91E33008FF1F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C51CD4F01DF91E33008FF1F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C51CD4F11DF91E33008FF1F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C51CD4F31DF91E33008FF1F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HWEverNote/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hwacdx.HWEverNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C51CD4F41DF91E33008FF1F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HWEverNote/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hwacdx.HWEverNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C51CD4F61DF91E33008FF1F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HWEverNoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hwacdx.HWEverNoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HWEverNote.app/HWEverNote";
+			};
+			name = Debug;
+		};
+		C51CD4F71DF91E33008FF1F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HWEverNoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hwacdx.HWEverNoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HWEverNote.app/HWEverNote";
+			};
+			name = Release;
+		};
+		C51CD4F91DF91E33008FF1F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HWEverNoteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hwacdx.HWEverNoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HWEverNote;
+			};
+			name = Debug;
+		};
+		C51CD4FA1DF91E33008FF1F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HWEverNoteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hwacdx.HWEverNoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HWEverNote;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C51CD4C01DF91E33008FF1F2 /* Build configuration list for PBXProject "HWEverNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C51CD4F01DF91E33008FF1F2 /* Debug */,
+				C51CD4F11DF91E33008FF1F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C51CD4F21DF91E33008FF1F2 /* Build configuration list for PBXNativeTarget "HWEverNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C51CD4F31DF91E33008FF1F2 /* Debug */,
+				C51CD4F41DF91E33008FF1F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C51CD4F51DF91E33008FF1F2 /* Build configuration list for PBXNativeTarget "HWEverNoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C51CD4F61DF91E33008FF1F2 /* Debug */,
+				C51CD4F71DF91E33008FF1F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C51CD4F81DF91E33008FF1F2 /* Build configuration list for PBXNativeTarget "HWEverNoteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C51CD4F91DF91E33008FF1F2 /* Debug */,
+				C51CD4FA1DF91E33008FF1F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C51CD4BD1DF91E33008FF1F2 /* Project object */;
+}
